@@ -1,0 +1,84 @@
+body {
+  background: #333333;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.help {
+  background: beige;
+  padding: 0 30px;
+  border-radius: 10px;
+  font-weight: 600;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+.help.menu {
+  width: 300px;
+}
+
+.instruction {
+  display: none;
+}
+
+.instruction.view {
+  display: block;
+}
+
+.instruction h4 {
+  text-align: center;
+}
+
+.instruction p {
+  text-align: justify;
+}
+
+aside {
+  background: beige;
+  margin-right: 300px;
+  padding: 30px 40px;
+  text-align: center;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+aside button {
+  margin-bottom: 30px;
+  border: 1px solid yellowgreen;
+  padding: 10px;
+  border-radius: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px;
+}
+
+aside .randomColor {
+  width: 100px;
+  height: 100px;
+  background: darkgray;
+}
+
+.tiles {
+  /* max-content centers our tiles */
+  padding: 100px 100px;
+  width: 435px;
+  height: 555px;
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  gap: 20px;
+  background: beige;
+}
+
+.tile {
+  height: 70px;
+  width: 70px;
+  background: darkgray;
+  border: 3px solid #444444;
+  cursor: pointer;
+}
+
