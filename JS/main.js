@@ -90,7 +90,7 @@ function buildTile(color) {
 
     setTimeout(() => {
       awaitingEndOfMove = false;
-    }, 3000)
+    }, 1000)
   });
 
   return element;
